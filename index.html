@@ -1,430 +1,382 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+﻿<!DOCTYPE html>
+<html>
 <head>
 <meta charset="utf-8">
-<title>首页 - 炫酷的科技公司静态html模板 - 我爱模板网 www.5imoban.net</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<link rel="stylesheet" type="text/css" href="css/common.css">	
-<link rel="stylesheet" href="http://www.5imoban.net/download/swiper/swiper-4.4.2.min.css" />
-<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<title>NicePage demo</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="css/layui.css" type="text/css" rel="stylesheet">
+
 </head>
-	
-<body>
-<div class="index-header clearfix">
-	<div class="index-logo fl">
-		<a href=""><img src="http://www.5imoban.net/tpl/images/logo.png"></a>
-	</div>
-	<ul class="index-nav fl">
-		<li><a href="index.html">首页</a></li>
-		<li><a href="about.html">关于我们</a></li>
-		<li><a href="business.html">业务范围</a></li>
-		<li><a href="products.html">产品中心</a></li>
-		<li><a href="cases.html">应用案例</a></li>
-		<li><a href="news.html">新闻资讯</a></li>
-		<li><a href="jobs.html">人才招聘</a></li>
-		<li><a href="service.html">服务支持</a></li>
-		<li><a href="contact.html">联系我们</a></li>
-	</ul>
-	<div class="index-header-right fr">
-		<a href="" class="search-btn">搜索</a>	
-		<a href="" class="erweima">
-			<div class="erweima-pic">
-				<img src="images/pic1.jpg">
-			</div>
-		</a>
-	</div>
-	<div class="clear"></div>
-</div>
-	
-<div class="search_sec">
-	<a href="#" title="" class="close-search"><i class=" la-close"><img src="images/icon5.png"></i></a>
-	<div class="search_field">
-		<div class="container">
-			<form>
-				<input type="text" name="search" placeholder="Search for...">
-				<button type="submit"><img src="images/search2.png" alt=""></button>
-			</form>
-		</div>
-	</div>
-</div>	
-<!--search_sec end-->
+<BODY>
 
-<div id="bloc">
-	<article id="index">
-		<div class="banner-position">
-			<div class="index-banner swiper-container">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide">
-			          <img src="images/banner1.jpg">
-			        </div>
-			        <div class="swiper-slide">
-			          <img src="images/banner1.jpg">
-			        </div>
-			        <div class="swiper-slide">
-			          <img src="images/banner1.jpg">
-			        </div>
-			    </div>
-			    <!-- Add Navigation -->
-			    <div class="swiper-button-prev swiper-button-white"></div>
-			    <div class="swiper-button-next swiper-button-white"></div>
-		  	</div>
-			<div class="banner-wave">
-				<svg viewBox="0 0 120 28">
-			
-					<defs>
-			
-						<filter id="goo">
-			
-							<feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
-			
-							<feColorMatrix in="blur" mode="matrix" values="
-			
-							   1 0 0 0 0  
-							
-							   0 1 0 0 0  
-							
-							   0 0 1 0 0  
-							
-							   0 0 0 13 -9" result="goo" />
-			
-							<xfeBlend in="SourceGraphic" in2="goo" />
-			
-						</filter>
-			
-						<path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-			
-					</defs>
-			
-					<use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
-			
-					<use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
-			
-					<g class="gooeff" filter="url(#goo)">
-			
-						<circle class="drop drop1" cx="20" cy="2" r="8.8" />
-			
-						<circle class="drop drop2" cx="25" cy="2.5" r="7.5" />
-			
-						<circle class="drop drop3" cx="16" cy="2.8" r="9.2" />
-			
-						<circle class="drop drop4" cx="18" cy="2" r="8.8" />
-			
-						<circle class="drop drop5" cx="22" cy="2.5" r="7.5" />
-			
-						<circle class="drop drop6" cx="26" cy="2.8" r="9.2" />
-			
-						<circle class="drop drop1" cx="5" cy="4.4" r="8.8" />
-			
-						<circle class="drop drop2" cx="5" cy="4.1" r="7.5" />
-			
-						<circle class="drop drop3" cx="8" cy="3.8" r="9.2" />
-			
-						<circle class="drop drop4" cx="3" cy="4.4" r="8.8" />
-			
-						<circle class="drop drop5" cx="7" cy="4.1" r="7.5" />
-			
-						<circle class="drop drop6" cx="10" cy="4.3" r="9.2" />
-			
-						<circle class="drop drop1" cx="1.2" cy="5.4" r="8.8" />
-			
-						<circle class="drop drop2" cx="5.2" cy="5.1" r="7.5" />
-			
-						<circle class="drop drop3" cx="10.2" cy="5.3" r="9.2" />
-			
-						<circle class="drop drop4" cx="3.2" cy="5.4" r="8.8" />
-			
-						<circle class="drop drop5" cx="14.2" cy="5.1" r="7.5" />
-			
-						<circle class="drop drop6" cx="17.2" cy="4.8" r="9.2" />
-			
-						<use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
-			
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="clear"></div>
-			<!--about-->
-			<div class="index-about">
-				<div class="index-con clearfix">
-					<div class="index-about-text fl">
-						<div class="index-title">
-							<h3 class="scroll-animate" data-effect="fadeInUpSmall">bailuozhineng</h3>
-							<h2 class="scroll-animate" data-delay="0.2" data-effect="fadeInUpSmall">about us</h2>
-							<span></span>
-						</div>
-						<p  class="scroll-animate" data-delay="0.6" data-effect="fadeInUpSmall">XXX智能立足于智慧社区领域，以人脸识别系统为核心，以社区需求为导向，率先在智慧社区、大数据领域布局并取得重大突破。<br />
-						XXX专注于智慧社区系统方案及配套产品的研发，通过云计算、大数据、人工智能等技术连接物业、居民、政府、媒体和社区服务提供方，形成“物联网+社区”一站式解决方案，目前已经获得国内专利及软件著作权40多项。</p>
-						<div class="index-more">
-							<a href="">view more +</a>
-						</div>
-					</div>	
-					<div class="index-about-pic fr">
-						<a href="" >
-							<img src="images/pic2.jpg" class="scroll-animate classGo" data-Tclass="go">
-						</a>
-					</div>
-				</div>
-				<div class="wave_box1">
-					<img src="images/wavs.gif">
-				</div>
-			</div>
-			<div class="clear"></div>
-			
-			<!--业务范围-->
-			<div class="index-yewu">
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>bailuozhineng</h3>
-						<h2>why we</h2>			
-					</div>
-					
-					<div class="index-yewu-info clearfix">
-						<div class="index-yewu-pic fl">
-							<a href="" >
-								<img src="images/pic3.jpg" class="scroll-animate classGo" data-Tclass="go">
-							</a>
-						</div>
-						<ul class="index-yewu-list clearfix fr">
-							<li>
-								<a href="">
-									<em><img src="images/ico1.png"></em>
-									<div class="text">
-										<h2>智慧城市</h2>
-										<span>Smart city</span>
-										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
-									</div>
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>									
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="images/ico2.png"></em>
-									<div class="text">
-										<h2>智慧社区</h2>
-										<span>Smart city</span>
-										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="images/ico3.png"></em>
-									<div class="text">
-										<h2>智慧校园</h2>
-										<span>Smart city</span>
-										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="images/ico4.png"></em>
-									<div class="text">
-										<h2>智慧安防</h2>
-										<span>Smart city</span>
-										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="images/ico5.png"></em>
-									<div class="text">
-										<h2>人脸识别</h2>
-										<span>Face recognition</span>
-										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="images/ico6.png"></em>
-									<div class="text">
-										<h2>行为分析</h2>
-										<span>behavior analysis</span>
-										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-						</ul>
-					</div>			
-				</div>
-			</div>
-			<div class="clear"></div>
-			
-			<div class="position-yuan clearfix">			
-				<div class="bg scr-el" data-v="1" data-speed-x="12" data-offset="150 "></div>
-			</div>
-			<div class="clear"></div>
-			<!--产品-->
-			<div class="index-product clearfix">
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>bailuozhineng</h3>
-						<h2>Product</h2>			
-					</div>
-					<ul class="clearfix index-product-list clearfix">
-						<li>
-							<a href="">
-								<em><img src="images/pic4.jpg"></em>
-								<div class="text">
-									<h2>智能人脸识别系统 </h2>
-									<p>Intelligent Face Recognition System</p>
-									<span><img src="images/jt.png"></span>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<em><img src="images/pic5.jpg"></em>
-								<div class="text">
-									<h2>智能交通应用系统 </h2>
-									<p>Intelligent Transportation Application System</p>
-									<span><img src="images/jt.png"></span>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<em><img src="images/pic6.jpg"></em>
-								<div class="text">
-									<h2>社区媒体服务 </h2>
-									<p>Community Media Services</p>
-									<span><img src="images/jt.png"></span>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="clear"></div>
-			
-			<!--news-->
-			<div class="index-news">
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>bailuozhineng</h3>
-						<h2>news</h2>			
-					</div>
-					<ul class="index-news-list clearfix">
-						<li class="trs02 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs03 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs04 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs05 an_up">
-							<a href="">
-								<em><img src="images/pic7.jpg"></em>
-								<div class="text">
-									<span></span>
-									<p>AI人脸识别，助力智慧社区建设升级慧社区建！</p>
-									<i>2019.09.25</i>
-								</div>
-							</a>
-						</li>
-					</ul>
-					<div class="clear"></div>
-				</div>
-			</div>
-			
-			<!--footer-->
-			<div class="index-footer">										
-				<div class="clearfix index-footer-info index-con">
-					<div class="logo fl">
-						<img src="http://www.5imoban.net/tpl/images/logo.png">
-					</div>
-					<div class="lianxi fl">
-						<h2>联系方式</h2>
-						<p>前台电话： 0551-88888888 </p>
-						<p>报修电话：188-8888-8888</p>
-						<P>地址：安徽省合肥市XX区XX1201号XXXXXX</P>
-						<p>商务产业园x期x号楼东xxx室</p>
-					</div>
-					<div class="phone fl">			
-						400-036-0551
-					</div>
-					<div class="erweima fr">
-						<img src="images/pic1.jpg">
-						<p>二维码</p>
-					</div>
-				</div>
-				
-				<div class="index-footer-bottom">
-					<div class="index-con clearfix">
-						<p class="fl">版权所有 © 2012-2019 xxxx科技有限公司  皖ICP备xxxxxxxx号 x公网安备xxxxxxxxxxxxxxxxxx号</p>
-						<a href="http://www.5imoban.net" target="_blank" class="fr">技术支持：静态网页模板</a>
-					</div>
-				</div>
-			</div>	
-			<div class="clear"></div>		
-	</article>
-</div>
+<center style="padding-top: 40px">
+	<a style="font-size: 70px;font-weight: 500">JSON自动分页 <span class="layui-badge layui-bg-blue">DEMO</span></a>
+	</br>
+	<div style="width: 80%;padding-top: 20px">
+		<blockquote class="layui-elem-quote">#基于强大的layui 框架,通过扩展nicePage.js实现JSON数据格式的自动表格分页和跳转功能,配置简单,上手速度快，兼容IE5+。</blockquote>
+		<!--以下为两个必须div元素-->
+		<div id="table"></div>
+		<div id="pageBar"></div>
+	</div>
 
-<script type="text/javascript" src="http://www.5imoban.net/download/jquery/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src='js/modernizr.custom.js'></script>
-<script src="js/more.js"></script>
-<script src="http://www.5imoban.net/download/swiper/swiper-4.4.2.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script type='text/javascript' src='js/base.js'></script>
-<script type="text/javascript" src='js/app.js'></script>
-<script>
-var swiper = new Swiper('.index-banner.swiper-container', {
-  speed: 600,
-  parallax: true,   
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-scrolly.init({
-	wrapper: '#bloc',
-	targets: '.scr-el',
-	bgParallax: true,
-	wrapperSpeed: 0.08
-});
+</center>
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+	<legend>基本使用说明</legend>
+</fieldset>
+
+<pre class="layui-code">
+		//标准json格式 目前只支持[{a:b,c:d},{a:b,c:d}]
+
+		var json=[{"id":"1","name":"Tom","age":"12"},{"id":"2","name":"Joy","age":"13"}]
+
+		//nameList与widthList的数组长度要一致
+		nameList//数组为表格列名,如['序号','姓名','年龄']
+		widthList//数组为列名的宽度,如['100','200','100']
+		
+		/**
+		 * 初始化设置nicepage组件
+		 *------------------------------------------------------------
+		 * 进行数据组装,与layui交互进行元素渲染
+		 *-------------------------------------------------------------
+		 * @param    {string}  table     table的div id
+		 * @param    {string}  bar     底部分页的div id
+		 * @param    {int}  limit     每页默认行数
+		 * @param    {string}  color     底部分页的颜色
+		 * @param    {array}  layout     底部分页的布局,具体可参考layui api
+		 *
+		 * @date     2018-10-19
+		 * @author   Thomas.dz <hzdz163@163.com>
+		 */
+		//初始化
+		$(function () {
+			nicePage.setCfg({
+				table: 'table',
+				bar: 'pageBar',
+				limit: 20,
+				color: '#1E9FFF',
+				layout: ['count', 'prev', 'page', 'next', 'limit', 'skip']
+			});
+		});
+		//初始化完成
+</pre>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/layui.js"></script>
+<script type="text/javascript" src="js/nicePage.js"></script>
+<script type="text/javascript">
+	//标准json格式 目前只支持[{a:b,c:d},{a:b,c:d}]此种格式
+	var json = [{
+		"date": "18日星期四",
+		"sunrise": "06:06",
+		"high": "高温 16.0℃",
+		"low": "低温 9.0℃",
+		"sunset": "17:20",
+		"aqi": 41.0,
+		"fx": "北风",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "19日星期五",
+		"sunrise": "06:07",
+		"high": "高温 17.0℃",
+		"low": "低温 10.0℃",
+		"sunset": "17:19",
+		"aqi": 66.0,
+		"fx": "无持续风向",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "20日星期六",
+		"sunrise": "06:08",
+		"high": "高温 18.0℃",
+		"low": "低温 12.0℃",
+		"sunset": "17:18",
+		"aqi": 68.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "多云",
+		"notice": "阴晴之间，谨防紫外线侵扰"
+	}, {
+		"date": "21日星期日",
+		"sunrise": "06:09",
+		"high": "高温 19.0℃",
+		"low": "低温 15.0℃",
+		"sunset": "17:16",
+		"aqi": 57.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阴",
+		"notice": "不要被阴云遮挡住好心情"
+	}, {
+		"date": "22日星期一",
+		"sunrise": "06:10",
+		"high": "高温 19.0℃",
+		"low": "低温 14.0℃",
+		"sunset": "17:15",
+		"aqi": 49.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阵雨",
+		"notice": "阵雨来袭，出门记得带伞"
+	}, {
+		"date": "18日星期四",
+		"sunrise": "06:06",
+		"high": "高温 16.0℃",
+		"low": "低温 9.0℃",
+		"sunset": "17:20",
+		"aqi": 41.0,
+		"fx": "北风",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "19日星期五",
+		"sunrise": "06:07",
+		"high": "高温 17.0℃",
+		"low": "低温 10.0℃",
+		"sunset": "17:19",
+		"aqi": 66.0,
+		"fx": "无持续风向",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "20日星期六",
+		"sunrise": "06:08",
+		"high": "高温 18.0℃",
+		"low": "低温 12.0℃",
+		"sunset": "17:18",
+		"aqi": 68.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "多云",
+		"notice": "阴晴之间，谨防紫外线侵扰"
+	}, {
+		"date": "21日星期日",
+		"sunrise": "06:09",
+		"high": "高温 19.0℃",
+		"low": "低温 15.0℃",
+		"sunset": "17:16",
+		"aqi": 57.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阴",
+		"notice": "不要被阴云遮挡住好心情"
+	}, {
+		"date": "22日星期一",
+		"sunrise": "06:10",
+		"high": "高温 19.0℃",
+		"low": "低温 14.0℃",
+		"sunset": "17:15",
+		"aqi": 49.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阵雨",
+		"notice": "阵雨来袭，出门记得带伞"
+	}, {
+		"date": "18日星期四",
+		"sunrise": "06:06",
+		"high": "高温 16.0℃",
+		"low": "低温 9.0℃",
+		"sunset": "17:20",
+		"aqi": 41.0,
+		"fx": "北风",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "19日星期五",
+		"sunrise": "06:07",
+		"high": "高温 17.0℃",
+		"low": "低温 10.0℃",
+		"sunset": "17:19",
+		"aqi": 66.0,
+		"fx": "无持续风向",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "20日星期六",
+		"sunrise": "06:08",
+		"high": "高温 18.0℃",
+		"low": "低温 12.0℃",
+		"sunset": "17:18",
+		"aqi": 68.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "多云",
+		"notice": "阴晴之间，谨防紫外线侵扰"
+	}, {
+		"date": "21日星期日",
+		"sunrise": "06:09",
+		"high": "高温 19.0℃",
+		"low": "低温 15.0℃",
+		"sunset": "17:16",
+		"aqi": 57.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阴",
+		"notice": "不要被阴云遮挡住好心情"
+	}, {
+		"date": "22日星期一",
+		"sunrise": "06:10",
+		"high": "高温 19.0℃",
+		"low": "低温 14.0℃",
+		"sunset": "17:15",
+		"aqi": 49.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阵雨",
+		"notice": "阵雨来袭，出门记得带伞"
+	}, {
+		"date": "18日星期四",
+		"sunrise": "06:06",
+		"high": "高温 16.0℃",
+		"low": "低温 9.0℃",
+		"sunset": "17:20",
+		"aqi": 41.0,
+		"fx": "北风",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "19日星期五",
+		"sunrise": "06:07",
+		"high": "高温 17.0℃",
+		"low": "低温 10.0℃",
+		"sunset": "17:19",
+		"aqi": 66.0,
+		"fx": "无持续风向",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "20日星期六",
+		"sunrise": "06:08",
+		"high": "高温 18.0℃",
+		"low": "低温 12.0℃",
+		"sunset": "17:18",
+		"aqi": 68.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "多云",
+		"notice": "阴晴之间，谨防紫外线侵扰"
+	}, {
+		"date": "21日星期日",
+		"sunrise": "06:09",
+		"high": "高温 19.0℃",
+		"low": "低温 15.0℃",
+		"sunset": "17:16",
+		"aqi": 57.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阴",
+		"notice": "不要被阴云遮挡住好心情"
+	}, {
+		"date": "22日星期一",
+		"sunrise": "06:10",
+		"high": "高温 19.0℃",
+		"low": "低温 14.0℃",
+		"sunset": "17:15",
+		"aqi": 49.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阵雨",
+		"notice": "阵雨来袭，出门记得带伞"
+	}, {
+		"date": "18日星期四",
+		"sunrise": "06:06",
+		"high": "高温 16.0℃",
+		"low": "低温 9.0℃",
+		"sunset": "17:20",
+		"aqi": 41.0,
+		"fx": "北风",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "19日星期五",
+		"sunrise": "06:07",
+		"high": "高温 17.0℃",
+		"low": "低温 10.0℃",
+		"sunset": "17:19",
+		"aqi": 66.0,
+		"fx": "无持续风向",
+		"fl": "3-4级",
+		"type": "晴",
+		"notice": "愿你拥有比阳光明媚的心情"
+	}, {
+		"date": "20日星期六",
+		"sunrise": "06:08",
+		"high": "高温 18.0℃",
+		"low": "低温 12.0℃",
+		"sunset": "17:18",
+		"aqi": 68.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "多云",
+		"notice": "阴晴之间，谨防紫外线侵扰"
+	}, {
+		"date": "21日星期日",
+		"sunrise": "06:09",
+		"high": "高温 19.0℃",
+		"low": "低温 15.0℃",
+		"sunset": "17:16",
+		"aqi": 57.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阴",
+		"notice": "不要被阴云遮挡住好心情"
+	}, {
+		"date": "22日星期一",
+		"sunrise": "06:10",
+		"high": "高温 19.0℃",
+		"low": "低温 14.0℃",
+		"sunset": "17:15",
+		"aqi": 49.0,
+		"fx": "南风",
+		"fl": "3-4级",
+		"type": "阵雨",
+		"notice": "阵雨来袭，出门记得带伞"
+	}];
+
+	//nameList与widthList的数组长度要一致
+	var nameList = ['日期', '日出时刻', '最高温', '最低温', '日落时间', '空气指数', '风向', '风力', '天气', '提示'] //table的列名
+	var widthList = [100, 100, 100, 100, 100, 100, 100, 100, 100, 250] //table每列的宽度
+
+	/**
+	 * 初始化设置nicepage组件    1.0
+	 *-------------------------------------------------------------
+	 * 进行数据组装,与layui交互进行元素渲染
+	 *-------------------------------------------------------------
+	 * @param    {string}  table     table的div id
+	 * @param    {string}  bar     底部分页的div id
+	 * @param    {int}  limit     每页默认行数
+	 * @param    {string}  color     底部分页的颜色
+	 * @param    {array}  layout     底部分页的布局,具体可参考layui api
+	 *
+	 * @date     2018-10-19
+	 * @author   Thomas.dz <hzdz163@163.com>
+	 */
+	$(function () {
+		nicePage.setCfg({
+			table: 'table',
+			bar: 'pageBar',
+			limit: 20,
+			color: '#1E9FFF',
+			layout: ['count', 'prev', 'page', 'next', 'limit', 'skip']
+		});
+	});//初始化完成
 </script>
+
+<div style="text-align:center;">
+<p>更多源码：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
 </body>
 </html>
