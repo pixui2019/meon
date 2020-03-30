@@ -14,8 +14,13 @@ echo TEXT-DECORATION: underline}BODY{FONT-SIZE:9pt}TABLE{FONT-SIZE:9pt}^</style^
 echo ^</head^>     >> %LISTFILE%
 echo ^<body^>     >> %LISTFILE%
 echo [PROCESSED BY %0]^<br^> >> %LISTFILE%
-for /f "tokens=* delims=" %%i in ('dir *.* /a:-d/s/b') do (
-echo ^<a href="%%i" target=_blank^>%%i^</a^>^<br^> >> %LISTFILE%
+for /f "tokens=* delims=" %%i in ('dir *.html /a:-d/s/b') do (
+echo ^<a href="%%i" target=_blank^> >> %LISTFILE%
+
+
+echo ^%%j in ('dir *.html /a:-d/b')
+
+echo ^</a^>^<br^> >> %LISTFILE%
 )
 echo ^</body^>    >> %LISTFILE%
 echo ^</html^>      >> %LISTFILE%
