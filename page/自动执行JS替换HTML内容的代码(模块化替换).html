@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<script>
+
+// 函数在html体里面
+
+// 此时函数类似于OC中的Block, 是预先准备好的一段代码, 在需要的时候执行
+
+function myfunction(){
+
+x=document.getElementById("haha");
+
+x.innerHTML="直接写到html的body标签里面,页面自动执行（加载）js的几种方法1";
+
+}
+
+// 只能在配对的标签内部进行注释, 否则会显示在界面上
+
+
+
+
+function myfunction2(){
+
+x=document.getElementById("haha2");
+
+x.innerHTML="点击按键触发myfunction替换";
+
+}
+
+// 只能在配对的标签内部进行注释, 否则会显示在界面上
+
+
+function myfunction6(){
+
+x=document.getElementById("haha6");
+
+x.innerHTML="6666";
+
+}
+
+// 只能在配对的标签内部进行注释, 否则会显示在界面上
+
+
+function myfunction4(){
+
+x=document.getElementById("haha4");
+
+x.innerHTML="444444";
+
+}
+
+// 只能在配对的标签内部进行注释, 否则会显示在界面上
+
+
+function myfunction5(){
+
+x=document.getElementById("haha5");
+
+x.innerHTML="555555";
+
+}
+
+// 只能在配对的标签内部进行注释, 否则会显示在界面上
+
+</script>
+
+
+
+
+
+
+
+<html>
+
+<body onLoad="myfunction();">
+ 
+ <script type="text/javascript">
+    window.onload = function(){
+        myfunction4();
+        myfunction5();
+        myfunction6(); 
+    }
+</script>
+ 
+ 
+ 
+ 
+ 
+ <script type="text/javascript">
+
+
+function myfunction3(){
+        alert("用window.onload调用myfunction3,页面自动执行（加载）js的几种方法2"); 　　
+
+        x=document.getElementById("haha3");
+
+        x.innerHTML="用window.onload调用myfunction3,页面自动执行（加载）js的几种方法2 ";
+
+}
+    /*用window.onload调用myfunction3()*/　
+    　
+    // 不要括号
+    window.onload=myfunction3;
+
+</script>
+
+
+
+ 
+<p id="haha">
+页面自动执行（加载）js的几种方法1
+<a href="C:\page\list.html" target=_blank>C:\page\list.html</a><br>
+<a href="C:\page\list.html" target=_blank>C:\page\list.html</a><br> 
+<a href="C:\page\1.html" target=_blank>C:\page\1.html</a><br> 
+<a href="C:\page\index.html" target=_blank>C:\page\index.html</a><br> 
+<a href="C:\page\HTML+CSS实现网页分页页码.html" target=_blank>C:\page\HTML+CSS实现网页分页页码.html</a><br> 
+<a href="C:\page\list - 副本 (2).html" target=_blank>C:\page\list - 副本 (2).html</a><br> 
+
+</p>
+
+<p id="haha2">
+点进行替换的内容
+
+
+</p>
+
+<p id="haha3">
+用window.onload调用myfun()
+
+</p>
+
+
+<p id="haha4">
+用window.onload调用myfunction3,页面自动执行（加载）js的几种方法3</p>
+
+<p id="haha5">
+用window.onload调用myfunction3,页面自动执行（加载）js的几种方法3</p>
+
+<p id="haha6">
+用window.onload调用myfunction3,页面自动执行（加载）js的几种方法3</p>
+
+
+
+
+
+
+ <div id="cshi">
+   你好，黑夜20200317
+  </div>
+  <!-- <script type="text/javascript">
+   var mylight=document.getElementById('light');
+   document.write('原始内容:'+mylight.innerHTML+'<br/>');//输入元素内容
+   mylight.innerHTML='javascript tomorrow';//修改元素内容
+   document.write('替换内容:'+mylight.innerHTML);
+  </script> -->
+  <script type="text/javascript">
+   var mystr=document.getElementById('cshi');
+   mystr.innerHTML="方法5我们通过获取<div> 元素，并将元素的内容输出和改变元素内容";
+   // document.write(mystr);
+  </script>
+
+
+
+
+
+
+
+
+
+
+<h2 id="con">javascript</H2>
+<p> 方法6 通过id获取h2标签元素,并赋给变量mychar,然后使用innerHTML属性，将获取的h2标签内容修改</p>
+<script type="text/javascript">
+ var mychar= document.getElementById('icon');   ;
+ document.write("原标题:"+mychar.innerHTML+"<br>"); //输出原h2标签内容
+ mychar.innerHTML="Hello world!";
+ document.write("修改后的标题:"+mychar.innerHTML); //输出修改后h2标签内容
+</script>
+
+
+
+
+
+<p id="p1">Hello World!</p>
+
+<script>
+document.getElementById("p1").innerHTML = "Hello Kitty！";
+</script>
+
+<p>上面的段落由脚本更改。</p>
+
+
+
+
+
+
+<img id="myImage" src="smiley.gif">
+
+<script>
+document.getElementById("myImage").src = "landscape.jpg";
+</script>
+<p>本例修改了 img 元素的 src 属性的值。</p>
+
+
+<h1 id="id1">我的标题 1</h1>
+
+<button type="button" onclick="document.getElementById('id1').style.color = 'red'">
+点击我！
+</button>
+
+
+<h1>我的第一部 JavaScript 动画</h1>
+
+<div id="animation">我的动画在这里。</div>
+
+
+
+
+<button type="button" onClick="myfunction2()">点我进行替换</button>
+
+
+
+
+
+
+
+</body>
+
+</html>
+

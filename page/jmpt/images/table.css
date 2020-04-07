@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*table样式*/
+table{border-collapse:collapse;border-spacing:0;}
+table thead th{border:1px solid #ddd;background:#fafafa;text-align:left;padding:8px 20px;}
+table td{border:1px solid #ddd;padding:8px 20px;}

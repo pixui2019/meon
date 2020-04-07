@@ -30,10 +30,10 @@ h6{ font-size:12px;}
 .index-body .left{ width:695px; overflow:hidden}
 .index-body .right{ width:254px; overflow:hidden}
 /* 首页最新作品 */
-.index-body .zxcp{ width:238px;}
+.index-body .zxcp{ width:336px;}
 .index-body .zxcp ul li a{ line-height:28px;}
 /* 首页最新资讯 */
-.index-body .zxzx{ width:434px;}
+.index-body .zxzx{ width:336px;}
 .index-body .zxzx ul li a{ line-height:24px;}
 /* 最新作品图片滚动 */
 .index-body .zp-gd{ height:120px; padding:10px; overflow:hidden; clear:both;   }
