@@ -1,0 +1,1 @@
+﻿document.write("<a href='/' target='_blank' title='about ad'><img src='/images/up_images/bg1.jpg'  width='1920' height='300' ></a>")

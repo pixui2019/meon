@@ -1,0 +1,603 @@
+﻿#body #InnerBanner{
+	max-width:640px;
+	margin:auto;}
+#body .inner{
+	max-width:640px;
+	margin:auto;
+	padding-top:0px;}
+#body .inner .left{
+	max-width:640px;
+	}
+#body .inner .right{
+	max-width:638px;
+}
+#body .inner .left .Sbox{
+	padding-bottom:0px;
+	font-size:12px;
+	}
+
+#body .inner .left .Sbox .topic{
+	background: url("/images/MyCMSMoral/box_bg7.jpg") repeat-x 0px top;
+	font-size:16px;
+	height:35px;
+	font-family:"Microsoft Yahei";
+	margin:0px 0px 10px 0px;
+	line-height:35px;
+	color:#C40000;
+	text-align:center;
+	font-weight:bold;}
+#body .inner .left .Sbox .blank {
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+	margin:10px 10px;
+	background:#FFF;
+	padding:10px 10px;
+	border:1px solid #DEDEDC;
+}
+#body .inner .left .Sbox .blank ul li{
+	height:40px;
+	overflow:hidden;
+	float:left;
+	width:50%;
+}
+#body .inner .left .Sbox .blank .current a{
+	background: url("/images/MyCMSMoral/m_Pro_bg2.gif") repeat-x 0px top;
+	color:#FFFFFF;}
+#body .inner .left .Sbox .blank ul li a{
+	text-align:center;
+	height:30px;
+	width:80%;
+	margin:auto;
+	line-height:30px;
+	background: url("/images/MyCMSMoral/m_Pro_bg1.gif") repeat-x 0px top;
+	display:block;
+	overflow:hidden;
+	-moz-border-radius: 7px; /* Firefox */
+	-webkit-border-radius: 7px; /* Safari 和 Chrome */
+	border-radius: 7px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+ 	}	
+#body .inner .left .Sbox .blank ul li a:hover{
+	background: url("/images/MyCMSMoral/m_Pro_bg2.gif") repeat-x 0px top;
+	color:#FFF;
+	text-decoration:none;}
+
+#body .inner .left .Sbox .list dl{
+	padding:0px 10px;
+	}
+#body .inner .left .Sbox .list dl dt{
+	font-family:Arial;
+	color:#666666;
+	line-height:20px;
+	font-size:10px;}
+
+#body .inner .left .Sbox .list dl dd{
+	line-height:30px;
+	border-bottom:1px dotted #DDDDDD;
+	padding-left:10px;
+	}
+#body .inner .left .Sbox .txt{
+	padding:10px;}
+	
+#body .inner .right  .Position{
+	display:none;
+	font-size:12px;
+	line-height:28px;
+	background:url("/images/MyCMSMoral/top_bg1.jpg") repeat left top;
+	text-align:left;
+	color:#666666;}
+#body .inner .right  .Position a{
+	color:#666666;}
+#body .inner .right  .Position span{
+	padding-left:10px;
+ 	}
+
+
+#body .inner .right .main{
+	padding:0px 10px;
+	font-size:12px;}
+
+/*content*/
+#body .inner .right  .content{
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+	margin:10px 0px;
+	background:#FFF;
+	padding:10px 10px;
+	border:1px solid #DEDEDC;
+	}
+#body .inner .right .main .content .title h3{
+	text-align:center;
+	font-size:18px;
+	font-weight:normal;
+	font-family:"Microsoft Yahei";}
+#body .inner .right .main .content .infos{
+	font-size:12px;
+	line-height:40px;
+	color:#666666;
+	text-align:center;}
+#body .inner .right .main .content .maincontent{
+	font-size:12px;}
+#body .inner .right .main .content .maincontent p{
+	padding:5px 0px;
+	line-height:200%;
+	}
+#body .inner .right .main .content .maincontent img{
+	max-width:90%;}	
+	
+#body .inner .right .main .content .download{
+	background:url("/images/MyCMSMoral/downicon.gif") no-repeat 15px 7px;
+	padding-left:55px;
+	border:1px solid #F5F5F5;
+	line-height:40px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:10px 0px;}
+
+#body .inner .right .main .content .prenext{
+	padding:10px 0px;
+	margin-top:10px;}
+#body .inner .right .main .content .prenext ul li{
+	line-height:30px;
+	padding-left:15px;}				
+				
+#body .inner .right .main .ArticleList{
+	font-size:12px;}
+#body .inner .right .main .ArticleList td{
+	line-height:35px;
+	}	
+#body .inner .right .main .ArticleList .fw_t{
+	font-size:12px;
+	border-bottom:1px dashed #CCC;}
+#body .inner .right .main .ArticleList .fw_s{
+	border-bottom:1px dashed #CCC;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;}
+
+#body .inner .right .main .ArticleList .NewsLi{
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+	margin:10px 0px;
+	background:#FFF;
+	padding:10px 10px;
+	border:1px solid #DEDEDC;
+	}
+
+#body .inner .right .main .ArticleList .NewsLiLeft{
+	float:left;
+	height:80px;
+	width:35%;
+	text-align:center;
+	color:#C40000;
+	font-size:16px;
+	overflow:hidden;
+	}
+#body .inner .right .main .ArticleList .NewsLiLeft p{
+	padding-right:10px;
+	}
+#body .inner .right .main .ArticleList .NewsLiLeft img{
+	width:80px;
+	height:60px;
+	border:1px solid #E5E5E5;}
+
+#body .inner .right .main .ArticleList .NewsLiLeft2{
+	float:left;
+	height:90px;
+	width:35%;
+	text-align:center;
+	color:#C40000;
+	font-size:16px;
+	overflow:hidden;
+	}
+#body .inner .right .main .ArticleList .NewsLiLeft2 p{
+	padding-right:10px;
+	}
+#body .inner .right .main .ArticleList .NewsLiLeft2 img{
+	width:80px;
+	height:80px;
+	border:1px solid #E5E5E5;}
+	
+#body .inner .right .main .ArticleList .NewsLiRight{
+	float:left;
+	Width:65%;
+	}
+
+#body .inner .right .main .ArticleList .NewsLiRight .NewsLiTitle{
+	height:20px;
+	overflow:hidden;
+	line-height:20px;}
+	
+#body .inner .right .main .ArticleList .NewsLiRight .NewsLiTitle a{
+	font-size:14px;}	
+#body .inner .right .main .ArticleList .NewsLiRight .NewsLiTitle span{
+	color:#999;
+	padding-left:0px;}	
+#body .inner .right .main .ArticleList .NewsLiRight p{
+	 color:#666;
+	 font-size:12px;
+}
+
+
+/* recruit */
+
+#body .inner .right .main .RecruitList{
+	}
+#body .inner .right .main .RecruitList td{
+	line-height:35px;
+	border-bottom:1px dotted #CCC;
+	font-size:12px;}	
+#body .inner .right .main .RecruitList .Rtitle{
+	background:#f5f5f5;
+	color:#C40000;
+	font-size:14px;
+	padding-left:10px;
+	height:30px;
+	line-height:30px;}
+#body .inner .right .main .RecruitList .Rtitle span{
+	text-align:right;
+	font-size:12px;}
+
+#body .inner .right .main .content .ProInfo .image{
+	width:270px;
+	margin:auto;}	
+	
+#body .inner .right .main .content .ProInfo .column{
+	padding:20px 0px;}
+	
+#body .inner .right .main .content .ProInfo .image img{
+	width:270px;
+	height:270px;
+	}
+
+#body .inner .right .main .content .ProInfo .image a{
+	display:block;
+	width:270px;
+	height:270px;
+	border:2px solid #F5F5F5;
+	padding:2px;	
+	}
+#body .inner .right .main .content .ProInfo .image a:hover{
+	border:2px solid #C40000;}
+#body .inner .right .main .content .ProInfo .column .title{
+	background-color:#f5f5f5;
+	padding:0px 10px;}
+#body .inner .right .main .content .ProInfo .column .title h3{
+	text-align:left;
+	font-size:14px;
+	line-height:25px;
+	font-weight:bold;}
+	
+#body .inner .right .main .content .ProInfo .column .infos{
+	text-align:left;}
+#body .inner .right .main .content .ProInfo .column ul li{
+	line-height:33px;
+	height:33px;
+	color:#333;
+	font-weight:normal;}
+
+#body .inner .right .main .content .ProInfo .column ul li span{
+	width:100px;
+	height:20px;
+	font-weight:bold;
+	padding:3px;
+	color:#333;
+	}					
+#body .inner .right .main .content .ProInfo .column ul .MPrice{
+	color:#666666;
+	text-decoration:line-through;
+	}
+#body .inner .right .main .content .ProInfo .column ul .NPrice{
+	color:#F00;
+	font-weight:bold;}
+#body .inner .right .main .content .ProInfo .column ul .NPrice .BuyCount{
+	color:#060;}
+	
+#body .inner .right .main  .IntroTitle{
+	font-size:14px;
+	line-height:25px;
+	border-left:3px solid #C40000;
+	margin:10px 0px;
+	padding-left:10px;
+	color:#C40000;
+	font-weight:bold;
+	background-color:#e5e5e5;}
+
+#body .inner .right .main .content .MorePro{
+	}
+
+#body .inner .right .main .content .CaseBlock  .albumblock{
+	padding:10px 0px 10px 0px;
+	float:left;
+	width:50%;
+	height:160px;
+}
+#body .inner .right .main .content .CaseBlock  .albumblock .inner{
+  	width:130px;
+	height:160px;
+	margin:auto;
+	}
+
+
+#body .inner .right .main .content .CaseBlock .albumblock .inner img{
+ 	width:126px;
+	height:126px;}
+
+#body .inner .right .main .content .CaseBlock  .albumblock .inner .albumtitle{
+ 	width:130px;}
+	
+#body .inner .right .main .content .CaseBlock .CaseBox{
+	width:370px;
+	float:left;
+	height:230px;
+	overflow:hidden;
+	}
+#body .inner .right .main .content .CaseBlock .CaseBox .CaseLeft{
+	width:170px;
+	float:left;}
+#body .inner .right .main .content .CaseBlock .CaseBox .CaseRight{
+	width:160px;
+	float:right;
+	padding-top:10px;}	
+
+#body .inner .right .main .content .CaseBlock .CaseBox .CaseRight h1{
+	font-size:14px;
+	padding-bottom:10px;
+	}
+#body .inner .right .main .content .CaseBlock .CaseBox .CaseRight p{
+	line-height:200%;
+	color:#666;}
+ 
+
+/* sitemap */
+#body .inner .right .main .SiteMap{
+	padding:0px 10px;}
+		
+#body .inner .right .main .SiteMap ul li{
+	font-weight:bold;
+	line-height:25px;
+	padding:10px 20px;
+	border-bottom:1px dashed #CCCCCC;
+	font-size:14px;
+	}
+
+
+#body .inner .right .main .SiteMap ul li ul li{
+	font-weight:normal;
+	border-bottom:none;
+	font-size:12px;
+	background:none;
+	padding:5px 0px;}
+					
+
+
+
+/* FeedBack */
+ .FeedBack {}
+ .FeedBack .Fleft{
+	width:90px;
+	float:left;
+	}
+ .FeedBack .Fleft .Ficon{
+	padding:0px  12px;
+	}
+ .FeedBack .Fleft .Fname{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:5px;
+	color:#C40000;
+	font-weight:bold;}		
+ .FeedBack .Fright{
+	float:left;
+	width:600px;
+	padding-bottom:10px;
+	}
+ .FeedBack .Fright .Fcontent .Ftime{
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#C40000;
+	padding:0px 20px 5px 20px;}	
+ .FeedBack .Fright .Fcontent{
+	width:600px;
+	background:url("/images/MyCMSMoral/PostBG.jpg") no-repeat left top;
+	padding:10px 0px;
+	}
+ .FeedBack .Fright .Fcontent p{
+	padding:0px 20px 5px 50px;}
+
+ .FeedBack .Fright .Fcontent .Freply .FRtitle{
+	margin-left:20px;
+	line-height:20px;
+	color:#FFFFFF;
+	height:25px;
+	background:url("/images/MyCMSSimple/picon.gif") no-repeat 2px 0px;
+	padding-left:20px;
+	font-weight:bold;}
+ .FeedBack .Fright .Fcontent .Freply p{
+	color:#989E4D}	
+ .FeedBack .Fright .Fline{
+	float:right;
+	width:572px;
+	border-top:1px solid #EDEDEF;
+	filter:progid:DXImageTransform.Microsoft.Shadow(Color=#999999, Strength=1, Direction=180);} 
+
+ .FeedBack .IntroTitle{
+	margin:auto;
+	}
+ .FeedBack .commentbox{
+	padding-top:5px;}	
+ .FeedBack .commentbox #commentform td{
+	height:40px;
+	font-size:12px;}
+ .FeedBack .commentbox #commentform input{
+	height:25px;
+	line-height:25px;}
+ .FeedBack .commentbox #commentform td span{
+	font-weight:bold;
+	color:#900;}
+ .FeedBack .commentbox #commentform .Cbutton{
+	line-height:25px;
+	background:#C40000;
+	border:none;
+	color:#FFFFFF;
+	font-size:14px;
+	cursor:pointer;}
+	
+#body .inner .right .main .FeedBack .commentlist dt{
+	padding:5px 10px;
+	background-color:#dededc;
+	height:22px;
+	line-height:22px;
+	font-size:12px;}	
+#body .inner .right .main .FeedBack .commentlist dd{
+	padding:15px 0px 15px 0px;
+	line-height:180%;
+	font-size:14px;
+	}	
+#body .inner .right .main .FeedBack .commentlist dd  b{
+	color:#458D3A;}
+
+#body .inner .right .main .FeedBack .commentlist dd span{
+	color:#A00000;}	
+#body .inner .right .main .FeedBack .commentlist p{
+	padding:0px;
+	line-height:180%;
+	margin:0px;}
+
+
+
+.clicktimes{
+	display:none;}
+/*img list*/
+.ImageList{
+	padding:0px 0px;}
+.ImageList .ImageBlockBG{
+	float:left;
+	width:50%;
+	padding:10px 0px 20px 0px;}
+.content .ImageList .ImageBlockBG{
+	max-width:50%;
+	width:133px;
+	padding:10px 10px 20px 5px;}
+.ImageList .ImageBlock{
+	padding:2px;
+	width:127px;
+	height:115px;
+	overflow:hidden;
+	border:1px solid #DDDDDD;
+	cursor:pointer;
+	margin:auto;}
+.content .ImageList .ImageBlock{
+	height:115px;
+	float:left;
+	padding:2px;}	
+.ImageList .ImageBlock:hover{
+	border:1px solid #C40000;
+	background-color:#F5F5F5;
+}	
+.ImageList .ImageBlock .ImageNote{
+	padding:5px;
+	line-height:25px;
+	color:#FFFFFF;
+	font-size:11px;}
+.ImageList .ImageBlock p a{
+	color:#FFFFFF;}		 
+.ImageList .ImageBlock img{
+	width:125px;
+	height:93px;
+	border:1px solid #F5F5F5;}
+.ImageList .ImageBlock img:hover{
+	border:1px solid #DDDDDD;}
+	
+.ImageList .ImageBlock p{
+	text-align:center;
+	bottom:0px;
+	background-color:#C40000;
+	color:#FFFFFF;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	opacity:0.8;
+	height:20px;
+	line-height:20px;}
+.content .ImageList .ImageBlock p{
+	color:#FFFFFF;}	
+.ImageList .ImageBlock a{
+	text-decoration:none;}
+#body .prenext .blk_29 {	 PADDING:0px 0px; OVERFLOW: hidden;  ZOOM: 1; POSITION: relative;}
+	
+#body .prenext .blk_29 .LeftBotton {	BACKGROUND: url(/images/Arrow_l.jpg) no-repeat -1px 0px; LEFT: 0px; FLOAT: left; WIDTH: 35px; CURSOR: pointer; POSITION: absolute; TOP: 50px; HEIGHT: 114px}
+#body .prenext .blk_29 .RightBotton {	RIGHT: 5px; BACKGROUND: url(/images/Arrow_r.jpg) no-repeat -0px 0px; FLOAT: right;right:0px; WIDTH: 35px; CURSOR: pointer; POSITION: absolute; TOP: 50px; HEIGHT: 114px}
+#body .prenext .blk_29 .Cont {	MARGIN: 0px auto; OVERFLOW: hidden;  PADDING:15px 0 0 0px;float:left;height:170px;width:720px;POSITION: relative;left:30px;}
+#body .prenext .blk_29 .box {	FLOAT: left; WIDTH: 240px; TEXT-ALIGN: center;}
+#body .prenext .blk_29 .box IMG {	BORDER: #ccc 1px solid; PADDING: 3px; DISPLAY: block; BACKGROUND: #fff; PADDING-BOTTOM: 3px; MARGIN: 0px auto; width:160px;height:120px;}
+#body .prenext .blk_29 .box A:hover IMG {	BORDER: #3092b9 1px solid;}
+#body .prenext .blk_29 .box P {	WIDTH: 240px; LINE-HEIGHT: 20px;text-align:center;font-size:12px;color:#3092b9}
+
+/* open div*/
+#popupMask {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:9990;
+	background-color:#000;
+	-moz-opacity: 0.7;
+	opacity:0.70;
+	filter: alpha(opacity=70);
+	font-size:12px;
+}
+#popupContainer {
+	position: absolute;
+	z-index: 9991;
+	top: 0px;
+	left: 0px;
+	display:none;
+	padding: 0px;
+	}
+#popupInner {
+	border: 3px solid #C40000;
+	background-color: #FFFFFF;
+	}
+#popupFrame {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 9;
+}
+#popupTitleBar {
+	background:url("/images/box_bg1.jpg") repeat-x left top;
+	color: #C40000;
+	font-weight: bold;
+	height: 1.3em;
+	padding: 5px;
+	z-index: 9992;
+	text-align:center;
+}
+#popupTitle {
+	float:left;
+	font-size: 1.1em;
+}
+#popupControls {
+	float: right;
+	cursor: pointer;
+	cursor: hand;
+}
+#popupControls a span {
+	display: block;
+	height: 15px;
+	width: 15px;
+	text-indent: -9000px;
+	background: url('/images/close.gif') no-repeat;
+}
+
+.VideoBox{
+	padding:10px;}
+							
+
+									

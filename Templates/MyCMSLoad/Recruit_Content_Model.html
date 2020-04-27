@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>$Class_Title$_$web_name$</title>
+<meta name="keywords" content="$Class_Keywords$" />
+<meta name="description" content="$Class_Description$" />
+<link href="/css/$web_theme$/inner.css" rel="stylesheet" type="text/css" />
+<link href="/css/$web_theme$/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="/images/iepng/iepngfix_tilebg.js"></script>
+<script type="text/javascript">
+window.onerror=function(){return true;}
+</script>
+</head>
+
+<body>
+<!--head start-->
+<div id="head">
+<div class='section'>
+			<div class="MyInner tem_top">
+				<h2><p><script language="javaScript"> 
+now = new Date(),hour = now.getHours() 
+if(hour < 6){document.write("夜深了，请早点休息哦，祝您晚安！")} 
+else if (hour < 9){document.write("早上好！欢迎来到$web_name$网站")} 
+else if (hour < 12){document.write("上午好！欢迎来到$web_name$网站")} 
+else if (hour < 14){document.write("中午好！欢迎来到$web_name$网站")} 
+else if (hour < 17){document.write("下午好！欢迎来到$web_name$网站")} 
+else if (hour < 19){document.write("傍晚好！欢迎来到$web_name$网站")} 
+else if (hour < 22){document.write("晚上好！欢迎来到$web_name$网站")} 
+else {document.write("夜里好！欢迎来到$web_name$网站")} 
+</script></p></h2>
+				<div class="tem_top_nav">
+                <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('$web_url$');" href="#">设为首页</a> | <a href="javascript:window.external.AddFavorite('$web_url$','$web_name$')">加入收藏</a> | <a href="/Sitemap/">网站地图</a>
+				</div>
+			</div>
+<div class="clearfix"></div>
+		</div>
+<!--top start -->
+<div class="top">
+
+<div class="TopLogo">
+<div class="logo"><a href="/"><img src="/images/up_images/$web_image$" alt="$web_name$"></a></div>
+
+
+<div class='SearchTop'>
+<div class="SearchBar">
+<form method="get" action="$search_FolderName$/index.asp">
+				<input type="text" name="q" id="search-text" size="15" onBlur="if(this.value=='') this.value='输入关键词';" 
+onfocus="if(this.value=='输入关键词') this.value='';" value="输入关键词" /><input type="submit" id="search-submit" value=" " />
+			</form>
+</div>
+<p><strong>热门搜索:</strong>$web_HotKeywords$</p>
+</div>
+
+
+<div class="tel">
+<p class="telN">$web_tel$</p>
+</div>
+
+
+
+<div class="clearfix"></div>
+
+</div>
+
+</div>
+<!--top end-->
+<div class="clearfix"></div>
+<!--nav start-->
+<div id="NavLink">
+<div id="NavBG">
+<!--Head Menu Start-->
+$web_TopMenu$
+<!--Head Menu End-->
+</div>
+<div class="clearfix"></div>
+</div>
+<!--nav end-->
+
+<div class='clearfix'></div>
+</div>
+<!--head end-->
+<!--body start-->
+<div id="body">
+<!--focus start-->
+<div id="FocusBG">
+
+<div class="fullSlide">
+  <div class="bd">
+    <ul>
+$Inner_BannerTop$    
+</ul>
+  </div>
+  <div class="hd">
+    <ul>
+    </ul>
+  </div>
+  <span class="prev"></span> <span class="next"></span> </div>
+<script type="text/javascript">
+jQuery(".fullSlide").hover(function() {
+    jQuery(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function() {
+    jQuery(this).find(".prev,.next").fadeOut()
+});
+jQuery(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+</script>
+
+
+</div>
+<!--focus end-->
+<div class="HeightTab clearfix"></div>
+<!--inner start -->
+<div class="inner">
+<!--left start-->
+<div class="left">
+<div class="Sbox">
+<div class="topic2">$ClassName1$</div>
+<div class="blank">$Block_LeftClassList$</div>
+</div>
+<div class="HeightTab clearfix"></div>
+<div class="Sbox">
+<div class="topic">联系我们</div>
+<div class="txt ColorLink">
+$web_consult$</div>
+</div>
+
+<div class="HeightTab clearfix"></div>
+ 
+</div>
+<!--left end-->
+<!--right start-->
+<div class="right">
+<div class="Position"><span>你的位置：<a href="/">首页</a> > $Class_Position$</span></div>
+<div class="HeightTab clearfix"></div>
+<!--main start-->
+<div class="main">
+
+<div class="RecruitList">
+<nav>
+$list_block$
+$list_page$
+<div class="clearfix"></div>
+</nav>
+</div>
+
+</div>
+<!--main end-->
+</div>
+<!--right end-->
+</div>
+<!--inner end-->
+</div>
+<!--body end-->
+<div class="HeightTab clearfix"></div>
+<div class="footer ">
+    <div class="container">
+        
+<div class="copyright">
+           $web_BottomHTML$
+        </div>
+        <div class="gzwm">
+            <div class="attention">
+            <p><img src="/images/QRCode.png" width='100' height='100'></p>
+            </div>
+        </div>        
+
+        
+    </div>
+</div>
+
+<script type="text/javascript" src="/js/ServiceCenter.js"></script>
+</body>
+</html>
